@@ -17,6 +17,10 @@ Object-oriented primitives for [EOLANG](https://www.eolang.org).
 This is how you list all text files in a directory recursively:
 
 ```
++alias org.eolang.io.stdout
++alias org.eolang.txt.sprintf
++alias org.cactoos.io.files
+
 each. > @
   files
     "/tmp"
