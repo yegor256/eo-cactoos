@@ -14,6 +14,20 @@
 
 Object-oriented primitives for [EOLANG](https://www.eolang.org).
 
+This is how you list all text files in a directory recursively:
+
+```
+each. > @
+  files
+    "/tmp"
+    *
+      [f] (f.isDir.not > @)
+      [f] (/\.txt$/.matches f > @)
+  [f]
+    stdout > @
+      sprintf "file: %s" f
+```
+
 ## How to Contribute
 
 Fork repository, make changes, send us a pull request.
