@@ -82,7 +82,7 @@ SOFTWARE.
     </site>
   </distributionManagement>
   <properties>
-    <eo.version>1.0-SNAPSHOT</eo.version>
+    <eo.version>0.1.24</eo.version>
   </properties>
   <dependencies>
     <dependency>
