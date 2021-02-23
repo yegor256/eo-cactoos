@@ -32,6 +32,8 @@ each. > @
       sprintf "file: %s" f
 ```
 
+You are welcome to add more primitives to this lib.
+
 ## How to Contribute
 
 Fork repository, make changes, send us a pull request.
