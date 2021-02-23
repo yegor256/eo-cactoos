@@ -1,0 +1,8 @@
++package org.cactoos.io
++rt jvm org.cactoos:eo-cactoos:0.1.0
+
+[path] > file
+  path > @
+
+  # Is it directory?
+  [] > isDir /bool

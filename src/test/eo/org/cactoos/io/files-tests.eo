@@ -1,0 +1,16 @@
++package org.cactoos.io
++alias org.cactoos.io.files
++alias org.eolang.txt.sprintf
++alias org.eolang.io.stdout
++junit
+
+[] > lists-files-in-directory
+  each. > @
+    files
+      "/tmp"
+      *
+        [f] (f.isDir.not > @)
+        [f] (/^[a-z]+$/.matches f > @)
+    [f]
+      stdout > @
+        sprintf "file: %s" f

@@ -1,0 +1,12 @@
++package org.cactoos.io
++rt jvm org.cactoos:eo-cactoos:0.1.0
+
+[path filters] > files
+  # Iterate all found files, recursively
+  [] > @ /array
+
+  # With this new filter on top of existing ones
+  [f] > with
+    files > @
+      ^.path
+      ^.filters.append f
