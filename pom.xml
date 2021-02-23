@@ -104,6 +104,8 @@ SOFTWARE.
               <goal>parse</goal>
               <goal>optimize</goal>
               <goal>compile</goal>
+              <goal>pull</goal>
+              <goal>resolve</goal>
             </goals>
           </execution>
           <execution>
