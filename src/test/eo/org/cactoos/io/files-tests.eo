@@ -7,7 +7,7 @@
 [] > lists-files-in-directory
   each. > @
     files
-      "/tmp"
+      "."
       *
         [f] (f.isDir.not > @)
         [f] (/^[a-z]+$/.matches f > @)
